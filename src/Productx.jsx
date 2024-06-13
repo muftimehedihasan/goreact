@@ -1,8 +1,10 @@
 import React from 'react'
 
-function Productx() {
+
+// eslint-disable-next-line react/prop-types
+function Productx({naam}) {
   return (
-    <div>Productx</div>
+    <div>{naam}</div>
   )
 }
 
